@@ -56,7 +56,7 @@ const int PAUSE = 3000;
 
 void print_temperature (int val) {
     lcd.setCursor(4, 0);
-    lcd.print(value_intTemp / 10.0);
+    lcd.print(val / 10.0);
     lcd.print(celsius_sign);
 }
 
